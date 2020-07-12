@@ -9,13 +9,13 @@ Oracle Linux 8 with lab
 
 ## Getting started
 ### Preparation before to run demo
-1. Clone this repository `git clone https://github.com/karlhat/Ksplice-demo.git`
-2. Change into the `Ksplice-demo` folder
+1. Clone this repository `git clone https://github.com/karlhat/ol8-gui-lab.git`
+2. Change into the `ol8-gui-lab` folder
 3. Run `vagrant up; vagrant ssh`
 
 ### Test the VM
 1. Open the VirtualBox Manager
-2. Double click on `ksplice-demo` Virtual Machine
+2. Double click on `ol8-gui-lab` Virtual Machine
 3. Login as `demo` user with password `Welcome1`
 4. In your laptop open the URL `http://localhost:8000/` <br/>
     tell to customer that web portal is running on Oracle Linux vm
@@ -23,7 +23,7 @@ Oracle Linux 8 with lab
 ## clean up
  Remove  applied kernel patches using the following command:
  
- `[root@ksplice-demo ~]# uptrack-remove  --all `
+ `vagrant destroy -f `
 
 
 ## Feedback
